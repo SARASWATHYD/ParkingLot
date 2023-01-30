@@ -15,7 +15,6 @@ public class ParkingEndPoint {
     @PostMapping
     public ResponseEntity parkVehicle(@RequestBody Vehicle vehicle){
 
-
         return ResponseEntity.ok("Vechicle Parked!"+vehicle.getVehicleNumber());
 
     }
